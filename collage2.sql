@@ -109,5 +109,5 @@ select * from students;
  order by phoneno
  limit 2;
  
-
+ SELECT COUNT(*) FROM professors;
 
