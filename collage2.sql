@@ -91,6 +91,23 @@ select * from students;
  from students
  order by EMAIL desc;
  
+  show tables;
+ 
+ select stdfullname
+ from students
+ inner join ENROLLMENT
+ on students.stdid=ENROLLMENT.stdid;
+ 
+ 
+ select stdphone
+ from students
+ left join departments
+ on students.deptid=departments.deptid;
+ 
+ select professorname,deptid
+ from professors
+ order by phoneno
+ limit 2;
  
 
 
